@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-heading{
+
+  text-align: center;
+  margin: 40px 10px;
+  color: rgba(2, 2, 2, 0.733);
+  font-size: 5rem;
+  border: 2px solid;
+  background-color:rgba(135, 207, 235, 0.473);
+  
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+.card-container h2{
+  margin: 40px 10px;
+  color: rgba(2, 2, 2, 0.733);
+  font-size: 3.5rem;
+
+}
+
+ .container {
+  display: flex;
+  gap: 20px;
+}
+
+.card-container button{
+  height: 3rem;
+  width: 7rem;
+  color: white;
+   border-radius: 10px; 
+   border: none;
+   cursor: pointer;
+   font-size: larger;
+}
+.card-container button:hover{
+  color: wheat;
+  font-weight: bold;
+  height: 3.5rem;
+  width: 7.5rem;
+}
+
+@media (max-width:600px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+

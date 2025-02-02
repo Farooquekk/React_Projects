@@ -1,0 +1,37 @@
+/*Reset Styles */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 50px;
+  }
+
+  
+  h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+    
+  
+  }
+  input{
+    margin: 30px ;
+    width: 250px;
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+  }
+  button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }

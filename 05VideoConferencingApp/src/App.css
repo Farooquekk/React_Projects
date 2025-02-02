@@ -1,0 +1,29 @@
+/*Reset Styles */
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+color: white;
+background-color: black;
+text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.5rem;
+  
+
+}
+input{
+  width: 250px;
+  height: 30px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+button{
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  background-color: blue;
+}
